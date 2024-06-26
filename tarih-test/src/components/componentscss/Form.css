@@ -1,0 +1,99 @@
+body {
+    background-color: #F9F9F9; /* Arka Plan Rengi */
+    font-family: Arial, sans-serif; /* Modern Yazı Tipi */
+    color: #333; /* Metin Rengi */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    max-width: 500px; /* Form genişliğini artırdık */
+    width: 100%;
+    padding: 40px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: #4CAF50; /* Ana Renk */
+    font-size: 24px; /* Yazı boyutunu büyüttük */
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333; /* Metin Rengi */
+  }
+  
+  .form-container input[type="text"],
+  .form-container input[type="email"],
+  .form-container input[type="password"],
+  .form-container select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px; /* Yazı boyutunu artırdık */
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50; /* Ana Renk */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px; /* Yazı boyutunu artırdık */
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-container button:hover {
+    background-color: #388E3C; /* Ana Renk - Koyu */
+  }
+  
+  .logout-button {
+    margin: 20px auto;
+    display: block;
+    padding: 15px;
+    background-color: #FF5722; /* İkincil Renk */
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 18px; /* Yazı boyutunu artırdık */
+    width: 250px;
+    text-align: center;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background-color: #E64A19; /* İkincil Renk - Koyu */
+  }
+  
+  .form-container p {
+    text-align: center;
+    color: #333;
+  }
+  
+  .form-container a {
+    color: #4CAF50;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .form-container a:hover {
+    color: #388E3C;
+  }
+  
